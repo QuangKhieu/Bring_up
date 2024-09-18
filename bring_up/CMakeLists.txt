@@ -13,12 +13,15 @@ find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 #set(rtcrobot_msg_DIR "install/rtcrobot_msg/share/rtcrobot_msg/cmake")
+find_package(sensor_msgs)
 
 find_package(rtcrobot_msg REQUIRED)
 
 
 
 add_executable(odom_publisher src/odom_publisher.cpp)
+add_executable(cmd_joy_publisher src/cmd_joy_publisher.cpp)
+
 ament_target_dependencies(odom_publisher
 rclcpp
 nav_msgs
@@ -27,7 +30,15 @@ tf2_geometry_msgs
 tf2_ros
 rtcrobot_msg
 )
-install(TARGETS odom_publisher
+ament_target_dependencies(cmd_joy_publisher
+rclcpp
+sensor_msgs
+rtcrobot_msg
+)
+
+install(TARGETS 
+odom_publisher
+cmd_joy_publisher 
 DESTINATION lib/${PROJECT_NAME}
 
 )

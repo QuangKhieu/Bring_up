@@ -1,0 +1,24 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer
+-- Install configuration: ""
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//launch
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//launch/slam_cartographer.launch.py
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//config
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//config/carto_config.lua
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/package_run_dependencies/slam_cartographer
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/parent_prefix_path/slam_cartographer
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/path.sh
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/path.dsv
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.bash
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.sh
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.zsh
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.dsv
+-- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/package.dsv
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/packages/slam_cartographer
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/cmake/slam_cartographerConfig.cmake
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/cmake/slam_cartographerConfig-version.cmake
+-- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/package.xml

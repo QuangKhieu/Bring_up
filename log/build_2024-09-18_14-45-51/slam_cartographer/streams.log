@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer -- -j8 -l8
+[0.037s] Invoked command in '/home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer -- -j8 -l8
+[0.059s] Invoking command in '/home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer
+[0.064s] -- Install configuration: ""
+[0.064s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//launch
+[0.064s] -- Installing: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer//launch/slam_cartographer.launch.py
+[0.064s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/package_run_dependencies/slam_cartographer
+[0.064s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/parent_prefix_path/slam_cartographer
+[0.064s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/path.sh
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/environment/path.dsv
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.bash
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.sh
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.zsh
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/local_setup.dsv
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/package.dsv
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/ament_index/resource_index/packages/slam_cartographer
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/cmake/slam_cartographerConfig.cmake
+[0.065s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/cmake/slam_cartographerConfig-version.cmake
+[0.066s] -- Up-to-date: /home/quangkhieu/Documents/ros2_ws/src/install/slam_cartographer/share/slam_cartographer/package.xml
+[0.066s] Invoked command in '/home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/quangkhieu/Documents/ros2_ws/src/build/slam_cartographer

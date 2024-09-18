@@ -26,6 +26,12 @@ def generate_launch_description():
         br_pkg,
         'config',
         'odom_para.yaml'
+    )
+
+    cmdJoy_config_path = os.path.join(
+        br_pkg,
+        'cofig',
+        'joy_para.yaml'
     )    
 
     odom_publisher_node = Node(
@@ -36,6 +42,14 @@ def generate_launch_description():
         parameters=[odom_config_path]  
     )
 
+    cmdJoypub_node = Node(
+        package="bring_up",
+        executable="cmd_joy_publisher",
+        name="cmd_joy_publisher",
+        output = "screen",
+        parameters= [cmdJoy_config_path]
+    ) 
+
     return LaunchDescription([
         # IncludeLaunchDescription(
         #     PythonLaunchDescriptionSource(l_sink_pkg_path)
@@ -43,7 +57,8 @@ def generate_launch_description():
         # IncludeLaunchDescription(
         #     PythonLaunchDescriptionSource(l_dis_pkg_path)
         # ),
-        odom_publisher_node
+        # odom_publisher_node
+        cmdJoypub_node
     ])
 
 
