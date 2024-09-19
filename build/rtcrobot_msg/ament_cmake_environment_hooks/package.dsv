@@ -1,0 +1,4 @@
+source;share/rtcrobot_msg/local_setup.bash
+source;share/rtcrobot_msg/local_setup.dsv
+source;share/rtcrobot_msg/local_setup.sh
+source;share/rtcrobot_msg/local_setup.zsh

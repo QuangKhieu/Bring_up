@@ -57,8 +57,8 @@ def generate_launch_description():
         # IncludeLaunchDescription(
         #     PythonLaunchDescriptionSource(l_dis_pkg_path)
         # ),
-        # odom_publisher_node
-        cmdJoypub_node
+        odom_publisher_node
+        #cmdJoypub_node
     ])
 
 

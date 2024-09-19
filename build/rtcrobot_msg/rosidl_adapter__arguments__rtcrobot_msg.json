@@ -1,0 +1,33 @@
+{
+  "package_name": "rtcrobot_msg",
+  "non_idl_tuples": [
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/CmdJoy.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/MotorData.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/WheelData.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/State.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/WayPoint.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/Target.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/RobotPose.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/RawObstacle.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/ObstacleCir.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/ObstacleSeg.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/Obstacle.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/ObstacleRange.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/Mission.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/MissionStatus.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/StringStamped.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/NodePath.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/TargetNode.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/StateAMR.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/TargetLift.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/BatteryStatus.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/RobotSpeed.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/AmrList.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/AmrConn.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/MapData.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/Mode.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/PlcRead.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/PlcWrite.msg",
+    "/home/quangkhieu/Documents/ros2_ws/src/rtcrobot_msg:msg/RobotStatus.msg"
+  ]
+}

@@ -1,5 +1,5 @@
-cmdJoy_Node:
+cmd_joy_publisher:
   ros__parameters:
-    cmd_joy_topic : "cmd_joy" # topic driver_kinco pkg sub to take joy data
+    cmd_joy_topic : "/cmd_joy" # topic driver_kinco pkg sub to take joy data
     v_max: 0.5 #m/s
     w_max: 2.0    # rad/s

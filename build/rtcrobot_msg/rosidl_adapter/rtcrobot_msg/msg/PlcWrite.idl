@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtcrobot_msg/msg/PlcWrite.msg
+// generated code does not contain a copyright notice
+
+
+module rtcrobot_msg {
+  module msg {
+    struct PlcWrite {
+      uint8 motor_left_stop;
+
+      uint8 motor_left_reset;
+
+      uint8 motor_right_stop;
+
+      uint8 motor_right_reset;
+
+      uint8 front_left_lamp;
+
+      uint8 front_right_lamp;
+
+      uint8 back_left_lamp;
+
+      uint8 back_right_lamp;
+
+      uint8 red_lamp;
+
+      uint8 yellow_lamp;
+
+      uint8 green_lamp;
+
+      uint8 charger;
+
+      uint8 plc_safety;
+
+      uint8 brake_on;
+
+      uint8 tim_forward_in1;
+
+      uint8 tim_forward_in2;
+
+      uint8 tim_forward_in3;
+
+      uint8 tim_forward_in4;
+
+      uint8 tim_backward_in1;
+
+      uint8 tim_backward_in2;
+
+      uint8 tim_backward_in3;
+
+      uint8 tim_backward_in4;
+    };
+  };
+};

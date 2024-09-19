@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtcrobot_msg/msg/NodePath.msg
+// generated code does not contain a copyright notice
+
+
+module rtcrobot_msg {
+  module msg {
+    struct NodePath {
+      sequence<string> waypoints;
+
+      float theta;
+    };
+  };
+};

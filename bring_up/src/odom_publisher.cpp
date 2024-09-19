@@ -3,9 +3,11 @@
 #include "tf2/LinearMath/Quaternion.h" //tf2 :: quaternion
 #include "tf2_ros/transform_broadcaster.h" 
 #include "tf2_geometry_msgs/tf2_geometry_msgs.hpp" // For tf2::toMsg
+#include "rtcrobot_msg/msg/motor_data.hpp"
 #include "rtcrobot_msg/msg/wheel_data.hpp"
 #include "chrono"
 #include "functional"
+
 
 
 using namespace std::chrono_literals;
@@ -31,12 +33,14 @@ public:
         int time_period_ = this->get_parameter("time_period").as_int();
         base_width_ = this->get_parameter("base_width").as_double();
         wheel_radius_ = this->get_parameter("wheel_radius").as_double();
-        gear_ratio_ = this->get_parameter("gear_ratio").as_double();                
+        gear_ratio_ = this->get_parameter("gear_ratio").as_double();
+
+        RCLCPP_INFO(this->get_logger(), "base_width: %f", base_width_) ;            
 
         auto timer_period_ms = std::chrono::milliseconds(time_period_);
 
        wheeldata_subcriber_ = this->create_subscription<rtcrobot_msg::msg::WheelData>(
-        "wheeldata_topic", 10,
+        wheeldata_topic_, 10,
         std::bind(&OdometryNode::wheeldataCallback,this ,std::placeholders::_1)
         );
         odom_publisher_  = this->create_publisher<nav_msgs::msg::Odometry>("/odom",10);
@@ -55,8 +59,8 @@ private:
 
         // auto left_rpm = msg->left;
         // auto right_rpm = msg->right; 
-        auto left_rpm = msg->left_speed; // sign ???????
-        auto right_rpm = msg->right_speed;
+        auto left_rpm = (msg->left).speed; // sign ???????
+        auto right_rpm = msg->right.speed;
 
         double vl = left_rpm*2*PI*wheel_radius_/gear_ratio_/60; //linear velocity of left wheel
         double vr = right_rpm*2*PI*wheel_radius_/gear_ratio_/60; //linear velocity of right wheel 
@@ -128,10 +132,11 @@ private:
     void cal_odom(double& dt)
     {
         double deltaTheta = w_* dt;
-        double deltaX = v_ * dt * std::cos(deltaTheta);
-        double deltaY = v_ * dt * std::sin(deltaTheta);
-
         theta_ += deltaTheta;
+        double deltaX = v_ * dt * std::cos(theta_);
+        double deltaY = v_ * dt * std::sin(theta_);
+
+        
         x_ += deltaX;
         y_ += deltaY; 
 

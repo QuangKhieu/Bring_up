@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtcrobot_msg/msg/RawObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "rtcrobot_msg/msg/ObstacleCir.idl"
+#include "rtcrobot_msg/msg/ObstacleSeg.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rtcrobot_msg {
+  module msg {
+    struct RawObstacle {
+      std_msgs::msg::Header header;
+
+      sequence<rtcrobot_msg::msg::ObstacleCir> circles;
+
+      sequence<rtcrobot_msg::msg::ObstacleSeg> segments;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+string ip
+bool connect

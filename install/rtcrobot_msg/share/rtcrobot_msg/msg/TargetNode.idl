@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtcrobot_msg/msg/TargetNode.msg
+// generated code does not contain a copyright notice
+
+
+module rtcrobot_msg {
+  module msg {
+    struct TargetNode {
+      string ip;
+
+      int8 mode;
+
+      string point;
+
+      float theta;
+    };
+  };
+};

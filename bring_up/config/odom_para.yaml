@@ -1,10 +1,10 @@
-odometry_node:
+odom_publisher:
   ros__parameters:
     wheeldata_topic: "/wheel_data"
     odom_topic: "/odom"
     frame_id: "odom"
     child_frame_id: "base_link"
-    time_period: 200 #ms period cal odom
-    base_width: 0.407
+    time_period: 100 #ms period cal odom
+    base_width: 0.45
     wheel_radius: 0.075
-    gear_ratio: 20.0
+    gear_ratio: 10.0

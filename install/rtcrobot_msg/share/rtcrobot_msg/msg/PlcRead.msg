@@ -1,0 +1,17 @@
+uint8 bumper
+uint8 sensor_check_product
+uint8 emo_forward
+uint8 emo_backward
+uint8 auto_switch
+uint8 manual_switch
+uint8 motor_left_out1
+uint8 motor_left_out2
+uint8 motor_right_out1
+uint8 motor_right_out2
+uint8 start_btn
+uint8 stop_btn
+uint8 reset_btn
+uint8 he_forward_out
+uint8 he_forward_er
+uint8 he_backward_out
+uint8 he_backward_er

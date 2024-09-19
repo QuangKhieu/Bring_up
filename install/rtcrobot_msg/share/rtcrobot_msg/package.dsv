@@ -1,0 +1,11 @@
+source;share/rtcrobot_msg/hook/cmake_prefix_path.ps1
+source;share/rtcrobot_msg/hook/cmake_prefix_path.dsv
+source;share/rtcrobot_msg/hook/cmake_prefix_path.sh
+source;share/rtcrobot_msg/hook/ld_library_path_lib.ps1
+source;share/rtcrobot_msg/hook/ld_library_path_lib.dsv
+source;share/rtcrobot_msg/hook/ld_library_path_lib.sh
+source;share/rtcrobot_msg/local_setup.bash
+source;share/rtcrobot_msg/local_setup.dsv
+source;share/rtcrobot_msg/local_setup.ps1
+source;share/rtcrobot_msg/local_setup.sh
+source;share/rtcrobot_msg/local_setup.zsh

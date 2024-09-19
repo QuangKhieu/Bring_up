@@ -1,0 +1,10 @@
+control_gain:
+  p_v: 0.5   # Proportional gain for linear velocity
+  p_w: 1.0   # Proportional gain for angular velocity
+
+init_para:
+  v_max: 0.2       # Maximum linear velocity
+  w_max: 1.0       # Maximum angular velocity
+  goal:
+    x: 0.8         # X coordinate of the goal
+    y: 0         # Y coordinate of the goal

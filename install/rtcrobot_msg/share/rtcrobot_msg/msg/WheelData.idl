@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtcrobot_msg/msg/WheelData.msg
+// generated code does not contain a copyright notice
+
+#include "rtcrobot_msg/msg/MotorData.idl"
+
+module rtcrobot_msg {
+  module msg {
+    struct WheelData {
+      rtcrobot_msg::msg::MotorData left;
+
+      rtcrobot_msg::msg::MotorData right;
+    };
+  };
+};
