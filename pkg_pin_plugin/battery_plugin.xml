@@ -1,0 +1,8 @@
+<library path="pkg_pin_plugin">
+<!-- namespace/class -->
+  <class name="battery_hardware_interface/PkgBatteryInterface" type="battery_hardware_interface::PkgBatteryInterface" base_class_type="hardware_interface::SensorInterface">
+    <description>
+      ---
+    </description>
+  </class>
+</library>
