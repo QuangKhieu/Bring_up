@@ -1,0 +1,18 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 60  # Update rate in Hz for the controller manager
+
+    imu_sensor_broadcaster:
+      type: "imu_sensor_broadcaster/IMUSensorBroadcaster"
+    imu_sensor_broadcaster2:
+      type: "imu_sensor_broadcaster/IMUSensorBroadcaster"
+
+
+imu_sensor_broadcaster:
+  ros__parameters:
+    sensor_name: "imu"
+    frame_id: "imu_link"
+imu_sensor_broadcaster2:
+  ros__parameters:
+    sensor_name: "imu2"
+    frame_id: "imu_link2"

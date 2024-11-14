@@ -1,0 +1,8 @@
+<library path="imu_plugin_pkg">
+<!-- namespace/class -->
+  <class name="imu_hardware_interface/HwtImuInterface" type="imu_hardware_interface::HwtImuInterface" base_class_type="hardware_interface::SensorInterface">
+    <description>
+      ---
+    </description>
+  </class>
+</library>
