@@ -1,0 +1,5 @@
+<library path="nav2_astar_planner_plugin">
+	<class name="nav2_AStar_planner/AStar" type="nav2_AStar_planner::AStar" base_class_type="nav2_core::GlobalPlanner">
+	  <description>test planner plugin.</description>
+	</class>
+</library>

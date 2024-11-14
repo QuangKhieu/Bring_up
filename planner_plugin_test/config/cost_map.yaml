@@ -1,0 +1,12 @@
+global_costmap:
+  ros__parameters:
+    global_frame: "map"
+    robot_base_frame: "base_link"  # Reference frame for the robot
+    update_frequency: 1.0
+    publish_frequency: 1.0
+    resolution: 0.05
+    width: 711
+    height: 710
+    plugins:
+      - name: static_layer
+        type: "nav2_costmap_2d::StaticLayer"
